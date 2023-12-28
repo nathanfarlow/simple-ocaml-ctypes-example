@@ -8,7 +8,7 @@
    ; which you need for the ctypes struct definitions
    (vendored
     (c_flags :standard -Wall -Werror -Ilibfoo)
-    (c_library_flags :standard -Wall -Werror -Ilibfoo)))
+    (c_library_flags :standard -Wall -Werror)))
   (headers
    (include "foo.h"))
   (type_description
