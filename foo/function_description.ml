@@ -1,6 +1,8 @@
 open! Ctypes
 module Types = Types_generated
 
+(* Put the function definitions of the C library here *)
+
 module Functions (F : Ctypes.FOREIGN) = struct
   open F
 
