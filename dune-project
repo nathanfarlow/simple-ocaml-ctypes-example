@@ -1,5 +1,7 @@
 (lang dune 3.12)
 
+(using ctypes 0.3)
+
 (name simple_ctype_example)
 
 (generate_opam_files true)

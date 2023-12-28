@@ -1,1 +1,1 @@
-let () = print_endline "Hello, World!"
+let () = Foo.say_hello ~name:"Santa" ~age:500
