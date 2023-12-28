@@ -1,0 +1,4 @@
+(executable
+ (public_name simple_ctype_example)
+ (name main)
+ (libraries simple_ctype_example))
